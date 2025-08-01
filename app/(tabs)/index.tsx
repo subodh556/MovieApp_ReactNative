@@ -8,8 +8,7 @@ import {
 } from "react-native";
 import { useRouter } from "expo-router";
 
-// eslint-disable-next-line import/no-unresolved
-import useFetch from "@/services/usefetch";
+import useFetch from "@/services/useFetch";
 import { fetchMovies } from "@/services/api";
 import { getTrendingMovies } from "@/services/appwrite";
 
